@@ -13,6 +13,7 @@ import org.sonatype.mavenbook.weather.model.Weather;
 
 public class WeatherDAO extends HibernateDaoSupport {
 
+    /* Comments about WeatherDAO */
     public WeatherDAO() {}
 
     public void save(Weather weather) {
